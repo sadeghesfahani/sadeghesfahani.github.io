@@ -49,7 +49,7 @@ a{
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     color: black;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .fa{
