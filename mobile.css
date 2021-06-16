@@ -61,7 +61,7 @@ a{
     border-bottom-right-radius: 0px;
     text-align: center;
     color: white;
-    overflow: scroll;
+    overflow: hidden;
     /*animation-name: close;*/
     /*animation-duration: 0.5s;*/
 }
