@@ -29,7 +29,7 @@ a{
     border-bottom-right-radius: 0px;
     text-align: center;
     color: white;
-    overflow: scroll;
+    overflow: hidden;
 
 }
 .left-bar > img{
