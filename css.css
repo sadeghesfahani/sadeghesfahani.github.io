@@ -1,0 +1,124 @@
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #d1d1f5;
+
+}
+a{
+    text-decoration: none;
+}
+#menu{
+    display: none;
+}
+#main{
+    width: 90%;
+    height: 90vh;
+    background-color: #7bddee;
+    border-radius: 30px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.left-bar{
+    width: 30%;
+    height: 90vh;
+    background-color: #66dfef;
+    float: left;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    color: white;
+    overflow: scroll;
+
+}
+.left-bar > img{
+    margin-top: 30px;
+    width: 80%;
+    border-radius: 50%;
+}
+.left-bar > h1 {
+    font-size: 30px;
+}
+.right-bar{
+    position: relative;
+    width: 70%;
+    height: 90vh;
+    float: right;
+    background-color: white;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    color: black;
+    overflow: scroll;
+}
+
+.fa{
+    font-size: 27px;
+    color: white;
+    margin: 5px;
+}
+#header>h2{
+    margin-top: 50px;
+    margin-left: 10%;
+    color: red;
+    float: left;
+    display: block;
+}
+#text{
+    margin-top: 50px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: justify;
+}
+.resume{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #70b2e5;
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 1px 1px 2px black;
+    cursor: pointer;
+}
+
+.resume:active{
+    position: absolute;
+    right: 30px;
+    top: 50px;
+    width: 200px;
+    height: 30px;
+    background-color: #70b2e5;
+    color: white;
+    text-align: center;
+    padding-bottom: 2px;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: 0px 0px 0px black;
+}
+.resume>i{
+    font-size: 15px;
+    margin-right: 10px
+}
+
+
+#header{
+    margin-bottom: 20px;
+    display: block;
+    height: 150px;
+}
+#info{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+#skills{
+    margin-left: 10%;
+}
+#skills div{
+    float: left;
+    margin-right: 70px;
+}
