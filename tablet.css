@@ -58,7 +58,7 @@ a {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
     color: black;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .fa {
